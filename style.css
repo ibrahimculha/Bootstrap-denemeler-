@@ -1,0 +1,14 @@
+.navbar{
+  opacity: 0.8;
+  border-bottom: 1px solid #fff;
+}
+.bg-dark{
+  padding-top: 100px;
+}
+.container {
+  padding-top: 30px;
+}
+
+.nav-item:hover  {
+  background: #dc3545;
+}

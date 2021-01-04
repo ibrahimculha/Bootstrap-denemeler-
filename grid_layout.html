@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <title>Grid Layout</title>
+</head>
+<style>
+
+
+/* // Small devices sm (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    body {
+      background-color: red;
+    }
+ }
+
+/* // Medium devices  md(tablets, 768px and up) */
+@media (min-width: 768px) {     body {
+      background-color: green;
+      color: white;
+    } }
+
+/* // Large devices lg (desktops, 992px and up) */
+@media (min-width: 992px) {     body {
+      background-color: blue;
+    } }
+
+/* // X-Large devices  xl (large desktops, 1200px and up) */
+@media (min-width: 1200px) {     body {
+      background-color: yellow;
+    } }
+
+/* // XX-Large devices xxl (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {     body {
+      background-color: red;
+    } }
+
+
+
+</style>
+
+<body >
+  <h2  class="my-5">Eşit Kolonlar</h2>
+  <div class="container my-4 ">
+    <div class="row">
+      <div class="col border">Column</div>
+    </div>
+    <div class="row my-2">
+      <div class="col border">Column</div>
+      <div class="col border">Column</div>
+    </div>
+    <div class="row my-2">
+      <div class="col border">Column</div>
+      <div class="col border">Column</div>
+      <div class="col border">Column</div>
+    </div>
+    <div class="row my-2">
+      <div class="col border">Column</div>
+      <div class="col border">Column</div>
+      <div class="col border">Column</div>
+      <div class="col border">Column</div>
+    </div>
+    <div class="row my-2">
+      <div class="col border">Column</div>
+      <div class="col border">Column</div>
+      <div class="col border">Column</div>
+      <div class="col border">Column</div>
+      <div class="col border">Column</div>
+      <div class="col border">Column</div>
+    </div>
+    <h2 class="my-5">Eşit olmayan Kolonlar</h2>
+    <div class="row">
+      <div class="col-2 border">Column</div>
+      <div class="col-10 border">Column</div>
+    </div>
+    <div class="row">
+      <div class="col-8 border"> 8Column</div>
+      <div class="col-4 border"> 4Column</div>
+    </div>
+    <div class="row">
+      <div class="col-8 border"> 8Column</div>
+      <div class="col-4 border"> 6Column</div>
+    </div>
+    <div class="row">
+      <div class="col-4 border"> 4Column</div>
+      <div class="col-5 border"> 5Column</div>
+    </div>
+    <div class="row ">
+      <div class="col-4 border me-auto"> 4Column</div>
+      <div class="col-5 border"> 5Column</div>
+    </div>
+    <div class="row ">
+      <div class="col-4 border"> 4Column</div>
+      <div class="col-5 border ms-auto"> 5Column</div>
+    </div>
+    <h2 class="my-5">Kolon Sıralama</h2>
+    <div class="row ">
+      <div class="col-3 border order-3">3 Column</div>
+      <div class="col-4 border order-2  "> 4 Column</div>
+      <div class="col border order-1"> 5 Column</div>
+    </div>
+
+    <h2 class="my-5">İç içe satırlar</h2>
+    <div class="row ">
+      <div class="col-4 border">4 Column</div>
+      <div class="col-8 border"> 8 Column
+        <div class="row">
+          <div class="col bg-primary">6 Column</div>
+          <div class="col bg-danger">6 Column</div>
+
+        </div>
+
+
+      </div>
+    </div>
+
+
+
+
+
+  </div>
+
+
+
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
